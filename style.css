@@ -1,70 +1,178 @@
 .navbar-brand{
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
-    color: #304438;
+    color: #310d0d;
 }
-
 .btn {
-    padding: 12px 50px;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 0%;
-    transition: all ease-in;
+    border-radius: 0;
+    transition: all ease-in .5s;
 }
-.btn-brand {
-background-color: #00ff66;
-color: #FFF;
+.btn-brand{
+    background-color: #310d0d;
+    color: #fff;
 }
-
 .btn-brand:hover {
-    border: 2px solid #304438;
+    border: 2px solid#310d0d
 }
-
 .navbar .nav-link {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    color: #304438;
+    color:#310d0d;
     text-transform: uppercase;
 }
-
 #banner {
-    background: url(cityscape-anime-inspired-urban-area.jpg);
+    background: url('cover.jpg');
     height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 #banner h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    color: #ffffff;
-
+font-family: 'Times New Roman', Times, serif;
+font-size: 100px;
+color: #271d1d;
 }
-
 #banner p {
-    font-size: 20px;
+    font-size: 90px;
+    color :rgb(34, 31, 27)
 }
-section {
-    padding: 45px 0;
+section{
+    padding: 100px 0 ;
+} 
+#shesh .card {
+    height: 450px;
 }
-.card-image-top {
+
+
+.card-img-top {
     width: 50%;
 }
 .card {
     border-radius: 0;
-    margin-top: 30px;
-    border: 3px solid #ffffff;
+    margin-top: 20px;
+    border: 2px solid #310d0d;
     padding: 20px;
-
 }
-.card .card-title {
+.card title {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
-#shessh h2{
+#shesh h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    
+}
+#about .ngee{
+    height: 80vh;
+    background: url(solo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#about .eyyy{
+    padding: 100px;
+
+}
+#about h2, #about h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#about {
+    background-color: #c29fc5;
+}
+.testimonials {
+    border: 4px solid #310d0d;
+    padding: 20px;
+    margin-top: 20px;
+}
+.testimonials img {
+    width: 75px;
+    border-radius: 50%;
+}
+#reviews .text-center {
+    font-family: 'Times New Roman', Times, serif;
+}
+#faq {
+    background: #310d0d;
+}
+#faq h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #070e2c;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body {
+    border-left: 3px solid #070e2c;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-left: 0;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #070e2c;
+    color: #fff;
+}
+.accordion-button:hover {
+    background-color: #070e2c;
+    color: #fff;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #304438;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: rgb(236,151,25)
+}
+
+@media screen  and (max-width: 767px){
+    h1 {
+        font-size: 40px;
+    }
+#shesh h2{
+
+    font-size: 40px;
+}
+     #shesh h2 {
+        font-size: 40px;
+     }
+
+     #shesh .col-lg-12 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+     }
+
+     #about .eyyy {
+        padding: 40px;
+     }
+#about .about {
+    height: 300px;
+}
 }
